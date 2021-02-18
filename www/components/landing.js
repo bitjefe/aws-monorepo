@@ -28,6 +28,7 @@ export default function Landing() {
                     alt="App Images"
                     width={600}
                     height={400}
+                    unoptimized={true}
                 />
             </div>
         </div>
