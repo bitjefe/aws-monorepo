@@ -45,19 +45,19 @@ export default function UseCase() {
   
     return (
         <div className="max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
-            <div className="flex flex-col lg:flex-row space-x-4 items-center text-center px-2 pt-32">
-                <div className="w-full lg:w-1/2">
+            <div className="flex flex-col lg:flex-row items-center text-center px-3 pt-32">
+                <div className="flex-1">
                     <h4 className="leading-tight text-4xl lg:text-5xl font-bold">
                         {subDesc}
                     </h4>
                 </div>
-                <div className="w-full lg:w-1/2">
+                <div className="flex-1">
                     <Player
                         ref={playerRef}
                         autoplay={true}
                         loop={true}
                         src={lottieFile}
-                        style={{width:"450px", height:"auto"}}
+                        style={{width:"450px", height:"300px"}}
                     ></Player>
                 </div>
             </div>
