@@ -25,7 +25,7 @@ export default function UseCase() {
                 break;
             case "/services":
                 title = "Connect Services";
-                subDesc = "Link your guest resources into a centralized place to convert digital actions"
+                subDesc = "Link your guest resources into a central location to convert digital interaction into action"
                 solution = "In-app landing page for associated links to connect guests to multiple sites"
                 impact = "Lifts to your digital ecosystem and easier access points for guests without having to download additional apps"
                 lottieFile = "/lottie-services.json"
