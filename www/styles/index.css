@@ -1,0 +1,111 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+html,
+body{
+  @apply bg-white;
+}
+
+/* Write your own custom component styles here */
+.btn-transparent {
+  @apply px-4 py-2 text-green rounded;
+}
+
+.btn-green-spec {
+  @apply bg-green hover:bg-white hover:text-green border border-green text-white font-bold py-4 px-6 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0 rounded-xl;
+}
+
+.btn-green-spec-lg {
+  @apply bg-green hover:bg-white hover:text-green border border-green text-white font-bold py-4 px-20 duration-200 transition-colors mb-6 lg:mb-0 rounded-xl;
+}
+
+.btn-cream {
+  @apply px-6 py-4 bg-cream border border-green text-green rounded-xl;
+}
+
+.btn-cream-lg {
+  @apply px-20 py-4 bg-cream text-green border border-green rounded-xl;
+}
+
+.btn-dark-green-lg {
+  @apply px-20 py-4 bg-green text-cream rounded-xl;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+@font-face {
+    font-family: 'Whyte';
+    src: local('Whyte ExtraLight'), local('Whyte-ExtraLight'),
+        url('/fonts/Whyte-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.bg-gradient-brand {
+  background-image: linear-gradient(
+    176deg,
+    #ffffff 60%,
+    #c5cbcb calc(60% + 2px)
+  );
+}
+
+.bg-gradient-brand-lg {
+  background-image: linear-gradient(
+    176deg,
+    #ffffff 55%,
+    #c5cbcb calc(55% + 2px)
+  );
+}
+
+.bg-gradient-brand-invert {
+  background-image: linear-gradient(
+    190deg,
+    #ffffff 50%,
+    #c5cbcb calc(50% + 2px)
+  );
+}
+
+.bg-gradient-brand-invert-cream {
+  background-image: linear-gradient(
+    350deg,
+    #ffffff 45%,
+    #FCF7ED calc(45% + 2px)
+  );
+}
+
+.bg-gradient-brand-cream {
+  background-image: linear-gradient(
+    175deg,
+    #ffffff 15%,
+    #FCF7ED calc(50% + 2px)
+  );
+}
+
+.radio-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-toolbar label:hover {
+  background-color: #485b55;
+  color: white;
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+  border: 2px #485b55;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+  background-color: #485b55;
+  border-color: #485b55;
+  color: white;
+}
+
