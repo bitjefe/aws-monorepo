@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import { useRouterScroll } from '@moxy/next-router-scroll';
+
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from "next/head";
@@ -11,6 +14,12 @@ import RequestDemo from '../components/requestDemo'
 import Footer from '../components/footer'
 
 export default function IndexPage() {
+    const { updateScroll } = useRouterScroll();
+
+    useEffect(() => {
+        updateScroll();
+    }, []);
+
     return (
         <div>
             <Head>
