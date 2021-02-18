@@ -3,7 +3,7 @@ import { RouterScrollProvider } from '@moxy/next-router-scroll';
 
 const MyApp = ({ Component, pageProps }) => {
     return (
-        <RouterScrollProvider disableNextLinkScroll={false}>
+        <RouterScrollProvider>
             <Component {...pageProps} />
         </RouterScrollProvider>
     )
