@@ -28,10 +28,11 @@ export default function ContactForm() {
                             First Name
                         </label>
                         <input
-                            className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                            className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                             id="grid-first-name"
                             type="text"
                             name="First Name"
+                            placeholder="Your first name"
                             value={firstName}
                             onChange={(e) => setFirstName(e.target.value)}
                         />
@@ -44,10 +45,11 @@ export default function ContactForm() {
                             Last Name
                         </label>
                         <input
-                            className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                             id="grid-last-name"
                             type="text"
                             name="Last Name"
+                            placeholder="Your last name"
                             value={lastName}
                             onChange={(e) => setLastName(e.target.value)}
                         />
@@ -62,10 +64,11 @@ export default function ContactForm() {
                           Email
                       </label>
                       <input
-                          className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                          className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                           id="grid-password"
                           type="email"
                           name="Email"
+                          placeholder="example@acme.com"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
                       />
@@ -77,7 +80,7 @@ export default function ContactForm() {
                     >
                     Services
                 </label>
-                <div className="radio-toolbar">
+                <div className="flex flex-col text-center md:flex-row radio-toolbar space-y-3 md:space-y-0">
                     <input
                         type="radio"
                         id="radioHost"
@@ -89,24 +92,9 @@ export default function ContactForm() {
                     />
                     <label
                         htmlFor="radioHost"
-                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-4 md:px-10 rounded-lg"
+                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-8 md:px-16 rounded-lg"
                         >
                         HOST
-                    </label>
-                    <input
-                        type="radio"
-                        id="radioSell"
-                        name="service"
-                        value="SELL"
-                        className="hidden"
-                        checked={service == "SELL" ? true : false}
-                        onChange={(e) => setService("SELL")}
-                    />
-                    <label
-                        htmlFor="radioSell"
-                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-4 md:px-10 rounded-lg"
-                        >
-                        SELL
                     </label>
                     <input
                         type="radio"
@@ -119,7 +107,7 @@ export default function ContactForm() {
                     />
                     <label
                         htmlFor="radioOther"
-                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-4 md:px-10 rounded-lg"
+                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-8 md:px-16 rounded-lg"
                         >
                         OTHER
                     </label>
@@ -133,10 +121,11 @@ export default function ContactForm() {
                             Message
                         </label>
                         <textarea
-                            className="appearance-none block w-full h-24 bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            className="appearance-none block w-full h-24 bg-gray-200 text-gray-700 border border-gray-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                             id="grid-message"
                             type="text"
                             name="Message"
+                            placeholder="Enter a brief message here"
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                         />
