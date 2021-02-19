@@ -80,7 +80,7 @@ export default function ContactForm() {
                     >
                     Services
                 </label>
-                <div className="radio-toolbar">
+                <div className="flex flex-col text-center md:flex-row radio-toolbar space-y-3 md:space-y-0">
                     <input
                         type="radio"
                         id="radioHost"
@@ -92,7 +92,7 @@ export default function ContactForm() {
                     />
                     <label
                         htmlFor="radioHost"
-                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-4 md:px-10 rounded-lg"
+                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-8 md:px-16 rounded-lg"
                         >
                         HOST
                     </label>
@@ -107,7 +107,7 @@ export default function ContactForm() {
                     />
                     <label
                         htmlFor="radioOther"
-                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-4 md:px-10 rounded-lg"
+                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-8 md:px-16 rounded-lg"
                         >
                         OTHER
                     </label>
