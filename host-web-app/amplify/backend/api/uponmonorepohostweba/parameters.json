@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "uponmonorepohostweba",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authuponmonorepohostweba756d4d56756d4d56",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

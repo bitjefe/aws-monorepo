@@ -1,0 +1,14 @@
+{
+    "CreateAPIKey": 0,
+    "AppSyncApiName": "uponmonorepohostweba",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authuponmonorepohostweba756d4d56756d4d56",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-amplify1b58835055f04-staging-05029-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/91a6055d51005646a5abc35f373c02fc9a742e8c"
+}
