@@ -1,36 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-#amplify
-/host-web-app/amplify/\#current-cloud-backend
-/host-web-app/amplify/.config/local-*
-/host-web-app/amplify/logs
-/host-web-app/amplify/mock-data
-/host-web-app/amplify/team-provider-info.json
-/host-web-app/amplify/backend/amplify-meta.json
-/host-web-app/amplify/backend/awscloudformation
-/host-web-app/amplify/backend/.temp
-/host-web-app/build/
-/host-web-app/dist/
-/host-web-app/node_modules/
-/host-web-app/src/aws-exports.js
-/host-web-app/awsconfiguration.json
-/host-web-app/amplifyconfiguration.json
-/host-web-app/amplify-build-config.json
-/host-web-app/amplify-gradle-config.json
-/host-web-app/amplifytools.xcconfig
-/host-web-app/.secret-*
-
-
 # dependencies
-/host-web-app/node_modules
-/host-web-app/.pnp
-host-web-app/.pnp.js
 /www/node_modules
 /www/.pnp
 www/.pnp.js
 
 # testing
-/host-web-app/coverage
 /www/coverage
 
 # next.js
@@ -38,7 +13,6 @@ www/.pnp.js
 /www/out/
 
 # production
-/host-web-app/build
 /www/build
 
 # misc
