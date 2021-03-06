@@ -18,7 +18,7 @@ www/.pnp.js
 # misc
 .DS_Store
 *.pem
-*report*
+www/report*
 
 # debug
 *npm-debug.log*
