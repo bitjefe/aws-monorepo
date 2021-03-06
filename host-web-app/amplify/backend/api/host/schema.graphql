@@ -1,8 +1,9 @@
 type Host
     @model
     @auth(rules: [
-        { allow: groups, groups: ["Admin"] },
-        { allow: owner, ownerField: "username", operations: [read, update] }
+      { allow: groups, groups: ["Admin"] },
+      { allow: owner, ownerField: "username", operations: [create, read, update, delete] }
     ]) {
     id: ID!
+    username: String!
 }

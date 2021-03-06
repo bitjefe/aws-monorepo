@@ -8,9 +8,9 @@ export const createHost = /* GraphQL */ `
   ) {
     createHost(input: $input, condition: $condition) {
       id
+      username
       createdAt
       updatedAt
-      username
     }
   }
 `;
@@ -21,9 +21,9 @@ export const updateHost = /* GraphQL */ `
   ) {
     updateHost(input: $input, condition: $condition) {
       id
+      username
       createdAt
       updatedAt
-      username
     }
   }
 `;
@@ -34,9 +34,9 @@ export const deleteHost = /* GraphQL */ `
   ) {
     deleteHost(input: $input, condition: $condition) {
       id
+      username
       createdAt
       updatedAt
-      username
     }
   }
 `;

@@ -5,9 +5,9 @@ export const getHost = /* GraphQL */ `
   query GetHost($id: ID!) {
     getHost(id: $id) {
       id
+      username
       createdAt
       updatedAt
-      username
     }
   }
 `;
@@ -20,9 +20,9 @@ export const listHosts = /* GraphQL */ `
     listHosts(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
+        username
         createdAt
         updatedAt
-        username
       }
       nextToken
     }
