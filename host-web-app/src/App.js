@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to Upon Host Builder
+          Welcome to the Upon Host Builder
         </p>
       </header>
       <AmplifySignOut />
