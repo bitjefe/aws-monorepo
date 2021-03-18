@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/new-host",
+            "lambdaFunction": "submitContact",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/new-host"
+        }
+    ],
+    "resourceName": "contact",
+    "apiName": "contact",
+    "functionArns": [
+        {
+            "lambdaFunction": "submitContact"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-hostwebapp-production-111701-authRole",
+        "unAuthRoleName": "amplify-hostwebapp-production-111701-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "submitContact",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
