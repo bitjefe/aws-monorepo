@@ -17,7 +17,7 @@ const AWS_CONFIGS = {
         endpoints: [
             {
                 name: "contact",
-                endpoint:process.env.REACT_APP_AWS_RESTENDPOINT,
+                endpoint:process.env.REACT_APP_AWS_CONTACT_RESTENDPOINT,
             },
         ]
     }
