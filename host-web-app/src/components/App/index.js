@@ -11,8 +11,6 @@ import HostSelectionPage from '../HostSelection';
 import HomePage from '../Home';
 import ScrollToTop from '../ScrollToTop';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 function App() {
     return (
         <Router>
