@@ -35,3 +35,6 @@ www/report*
 
 # vercel
 .vercel
+
+# backend
+backend/samconfig.toml
