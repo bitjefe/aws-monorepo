@@ -1,5 +1,5 @@
-
-const AWS_CONFIGS = {
+/*
+let AWS_CONFIGS = {
     "aws_project_region": process.env.REACT_APP_AWS_PROJECT_REGION,
     "aws_cognito_identity_pool_id": process.env.REACT_APP_AWS_COGNITO_IDENTITY_POOL_ID,
     "aws_cognito_region": process.env.REACT_APP_AWS_COGNITO_REGION,
@@ -8,8 +8,22 @@ const AWS_CONFIGS = {
     "oauth": {},
     "aws_appsync_graphqlEndpoint": process.env.REACT_APP_AWS_APPSYNC_GRAPHQLENDPOINT,
     "aws_appsync_region": process.env.REACT_APP_AWS_APPSYNC_REGION,
-    "aws_appsync_authenticationType": process.env.REACT_APP_AWS_APPSYNC_AUTHENTICATIONTYPE
+    "aws_appsync_authenticationType": process.env.REACT_APP_AWS_APPSYNC_AUTHENTICATIONTYPE,
 };
+*/
+
+const AWS_CONFIGS = {
+    API:{
+        endpoints: [
+            {
+                name: "contact",
+                endpoint:process.env.REACT_APP_AWS_RESTENDPOINT,
+            },
+        ]
+    }
+}
+
+
 
 
 export default AWS_CONFIGS;
