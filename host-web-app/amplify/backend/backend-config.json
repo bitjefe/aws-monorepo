@@ -56,5 +56,11 @@
         }
       }
     }
+  },
+  "storage": {
+    "leads": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
