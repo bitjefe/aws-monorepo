@@ -1,10 +1,7 @@
-import './App.css';
 import { API } from 'aws-amplify';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 import { Container, Button, Form } from 'react-bootstrap';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 async function submitContactInfo() {
     const data = {
@@ -38,7 +35,7 @@ function updateFormState(key, value) {
 }
 
 
-function App() {
+function HomePage() {
     return (
         <Container>
             <h3>Get in touch</h3>
@@ -74,4 +71,4 @@ function App() {
     );
 }
 
-export default App;
+export default HomePage;
