@@ -36,18 +36,19 @@ function HostSelectionPage() {
     return (
         <Container>
             <Row className="vh-100 align-items-center text-center">
-                <Col xs={12}>
+                <Col>
                     <Row>
                         <Col className="w-100 text-center">
                             <h1 className="p-3">What best describes your listing?</h1>
                             <p className="p-3">{listingDescHandler}</p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col >
+                    <Row className="justify-content-center">
+                        <Col xs={10} md={4} lg={3} xl={2}>
                             <Card
-                                border="secondary"
-                                style={{height:200, cursor:"pointer"}}
+                                id="hostCard"
+                                className="mt-2 w-full"
+                                style={{height:200, cursor:"pointer", background:"lightGray"}}
                                 onClick={() => setHostType("Accommodation")}
                                 >
                                 <Card.Body>
@@ -57,10 +58,10 @@ function HostSelectionPage() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={10} md={4} lg={3} xl={2}>
                             <Card
-                                border="secondary"
-                                style={{height:200, cursor:"pointer"}}
+                                className="mt-2 w-full"
+                                style={{height:200, cursor:"pointer", background:"lightGray"}}
                                 onClick={() => setHostType("Real Estate")}
                                 >
                                 <Card.Body>
@@ -70,10 +71,10 @@ function HostSelectionPage() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={10} md={4} lg={3} xl={2}>
                             <Card
-                                border="secondary"
-                                style={{height:200, cursor:"pointer"}}
+                                className="mt-2 w-full"
+                                style={{height:200, cursor:"pointer", background:"lightGray"}}
                                 onClick={() => setHostType("Retail")}
                                 >
                                 <Card.Body>
@@ -83,10 +84,10 @@ function HostSelectionPage() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={10} md={4} lg={3} xl={2}>
                             <Card
-                                border="secondary"
-                                style={{height:200, cursor:"pointer"}}
+                                className="mt-2 w-full"
+                                style={{height:200, cursor:"pointer", background:"lightGray"}}
                                 onClick={() => setHostType("Arts, Ent & Rec")}
                                 >
                                 <Card.Body>
@@ -96,10 +97,10 @@ function HostSelectionPage() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={10} md={4} lg={3} xl={2}>
                             <Card
-                                border="secondary"
-                                style={{height:200, cursor:"pointer"}}
+                                className="mt-2 w-full"
+                                style={{height:200, cursor:"pointer", background:"lightGray"}}
                                 onClick={() => setHostType("Transportation")}
                                 >
                                 <Card.Body>
