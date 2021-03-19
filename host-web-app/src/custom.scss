@@ -1,0 +1,34 @@
+/* 
+  cream - #FCF7ED
+  green - #485B55
+  silver - #C5CBCB (197,203,203)
+*/
+
+/* make the customizations */
+$theme-colors: (
+    "primary": #485B55,
+);
+
+$custom-control-indicator-active-bg:#485B55;
+$custom-control-gutter: 0;
+
+$body-bg: #FCF7ED;
+$body-color: #485B55;
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+.card:hover {
+    @extend .card;
+    box-shadow: $box-shadow;
+}
+
+.card.active {
+    @extend .card;
+    box-shadow: $box-shadow;
+}
+
+
+@import "~bootstrap/scss/bootstrap";
+
