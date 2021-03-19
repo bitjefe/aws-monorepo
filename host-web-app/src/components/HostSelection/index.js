@@ -45,7 +45,7 @@ function HostSelectionPage() {
                 <Col>
                     <Row>
                         <Col className="w-100 text-center">
-                            <h1 className="p-3">What best describes your listing?</h1>
+                            <h2 className="p-3">What best describes your listing?</h2>
                             <p className="p-3">{listingDescHandler}</p>
                         </Col>
                     </Row>
