@@ -3,6 +3,8 @@ import { useHistory } from "react-router-dom";
 
 import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap';
 
+import * as ROUTES from '../../constants/routes';
+
 import { AiOutlineGlobal } from "react-icons/ai"
 import { FiShoppingBag } from "react-icons/fi"
 import { BiBuildingHouse } from "react-icons/bi"
@@ -14,7 +16,12 @@ function HostSelectionPage() {
     const [hostType, setHostType] = useState("")
 
     function handleContinue() {
-        history.push("/home");
+        history.push({
+            pathname: ROUTES.TELLUSMORE,
+            state: {
+                hostType:hostType
+            }
+        })
     }
     
     let listingDescHandler = [];
