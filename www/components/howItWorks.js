@@ -20,13 +20,13 @@ export default function HowItWorks() {
                                         Create Your Host Profile
                                     </p>
                                     <p className="text-lg text-justify">
-                                        Use Upon's QR Builder to get your greeting app started.
-                                        Add your story and what makes your place unique,
-                                        recommend local favorites, and pin your own services & goods
+                                        Use Upon's builder to create your greeting app.
+                                        Host a welcome video, link resources & embed
+                                        on-site offerings.
                                     </p>
                                 </div>
                                 <div className="w-6/12 mx-auto px-2 rounded-full flex items-center justify-center">
-                                    <img src="/progressiveApp.svg" className="mx-auto h-56"/>
+                                    <img src="/createProfile.svg" className="mx-auto h-56"/>
                                 </div>
                             </div>
                         </div>
@@ -40,13 +40,13 @@ export default function HowItWorks() {
                                         Create Your Host Profile
                                     </p>
                                     <p className="text-lg px-0 py-6">
-                                        Use Upon's QR Builder to get your greeting app started.
-                                        Add your story and what makes your place unique,
-                                        recommend local favorites, and pin your own services & goods
+                                        Use Upon's builder to create your greeting app.
+                                        Host a welcome video, link resources & embed
+                                        on-site offerings.
                                     </p>
                                 </div>
                                 <div className="text-cream text-center px-4 py-2">
-                                    <img src="/progressiveApp.svg" className="mx-auto h-56"/>
+                                    <img src="/createProfile.svg" className="mx-auto h-56"/>
                                 </div>
                             </div>
                         </div>
@@ -57,15 +57,15 @@ export default function HowItWorks() {
                                         2
                                     </div>
                                     <p className="font-semibold text-2xl lg:text-3xl pb-6">
-                                        Get Your Arrival Kit
+                                        Display the QR Greeting
                                     </p>
                                     <p className="text-lg text-justify">
-                                        Your host profile will automatically upload to your
-                                        Upon QR code. Print at home or purchase a welcome kit
+                                        Start greeting your visitors! Popular locations are
+                                        anywhere people check-in, arrive, or sit.
                                     </p>
                                 </div>
                                 <div className="w-6/12 mx-auto px-2 flex items-center justify-center">
-                                    <img src="/orderDelivered.svg" className="mx-auto h-56"/>
+                                    <img src="/arrivalDisplay.svg" className="mx-auto h-56"/>
                                 </div>
                             </div>
                         </div>
@@ -76,15 +76,15 @@ export default function HowItWorks() {
                                         2
                                     </div>
                                     <p className="font-semibold text-2xl lg:text-3xl">
-                                        Get Your Arrival Kit
+                                        Display the QR Greeting
                                     </p>
                                     <p className="text-lg px-0 py-6">
-                                        Your host profile will automatically upload to your
-                                        Upon QR code. Print at home or purchase a welcome kit
+                                        Start greeting your visitors! Popular locations are
+                                        anywhere people check-in, arrive, or sit.
                                     </p>
                                 </div>
                                 <div className="text-center px-4 py-2">
-                                    <img src="/orderDelivered.svg" className="mx-auto h-56"/>
+                                    <img src="/arrivalDisplay.svg" className="mx-auto h-56"/>
                                 </div>
                             </div>
                         </div>
@@ -95,12 +95,11 @@ export default function HowItWorks() {
                                         3
                                     </div>
                                     <p className="font-semibold text-2xl lg:text-3xl pb-4">
-                                        Track Analytics
+                                        Track Visitor Metrics
                                     </p>
                                     <p className="text-justify">
-                                        You're ready to start greeting on Upon!  Login to see views
-                                        to your multi-media, next actions taken & lifts to your
-                                        other channels
+                                        See views to your media, clicks into your linked
+                                        resources & conversions into your on-site recommendations.
                                     </p>
                                 </div>
                                 <div className="w-6/12 mx-auto px-2 rounded-full flex items-center justify-center">
@@ -115,12 +114,11 @@ export default function HowItWorks() {
                                         3
                                     </div>
                                     <p className="font-semibold text-2xl lg:text-3xl pb-4">
-                                        Track Analytics
+                                        Track Visitor Metrics
                                     </p>
                                     <p className="text-lg px-0 py-6">
-                                        You're ready to start greeting on Upon!  Login to see views
-                                        to your multi-media, next actions taken & lifts to your
-                                        other channels
+                                        See views to your media, clicks into your linked
+                                        resources & conversions into your on-site recommendations.
                                     </p>
                                 </div>
                                 <div className="text-center px-4 py-2">
@@ -131,7 +129,7 @@ export default function HowItWorks() {
                     </div>
                 </div>
                 <div className="py-20 text-center">
-                    <Link href="/">
+                    <Link href="https://host.tryupon.com/">
                         <a className="btn-cream-lg text-xl hover:bg-green hover:text-white">Try Upon</a>
                     </Link>
                 </div>

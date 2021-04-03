@@ -32,7 +32,7 @@ export default function UseCase() {
                 break;
             case "/visits":
                 title = "Customized Visits";
-                subDesc = "Modernize your arrival experience with an easy to build phone app"
+                subDesc = "Modernize your visitor's experience via a progressive web app"
                 solution = "Web-app builder that converts a QR scan into a  phone app experience that guests can pin to their phones for short-term use"
                 impact = "Offer a bridge between app store download & website only formatting for improved in-person experiences"
                 lottieFile = "/lottie-visits.json"

@@ -14,10 +14,7 @@ export default function Landing() {
                     Increase favorability, reviews, and return rates with Upon's Greeting App
                 </p>
                 <Link
-                    href={{
-                        pathname:"/contact-us",
-                        query: { service: "HOST" }
-                    }}
+                    href="https://host.tryupon.com/"
                     >
                     <a className="btn-green-spec-lg">Get Started</a>
                 </Link>
