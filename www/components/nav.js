@@ -15,7 +15,7 @@ const leftLinks = [
 ]
 
 const rightLinks = [
-    { href: '/contact-us', label: 'Join Waitlist' },
+    { href: 'https://host.tryupon.com/', label: 'Join Waitlist' },
 ]
 
 export default function Nav() {

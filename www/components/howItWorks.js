@@ -129,7 +129,7 @@ export default function HowItWorks() {
                     </div>
                 </div>
                 <div className="py-20 text-center">
-                    <Link href="/">
+                    <Link href="https://host.tryupon.com/">
                         <a className="btn-cream-lg text-xl hover:bg-green hover:text-white">Try Upon</a>
                     </Link>
                 </div>
