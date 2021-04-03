@@ -15,7 +15,7 @@ const leftLinks = [
 ]
 
 const rightLinks = [
-    { href: '/contact-us', label: 'Login' },
+    { href: '/contact-us', label: 'Join Waitlist' },
 ]
 
 export default function Nav() {
@@ -75,7 +75,7 @@ export default function Nav() {
                         </li>
                     ))}
                 </ul>
-                <ul className="hidden md:flex md:items-end md:space-x-4">
+                <ul className="hidden md:flex md:items-end md:space-x-4 md:w-1/3 md:justify-end">
                     {rightLinks.map(({ href, label }) => (
                         <li key={`${href}${label}`}
                             >
