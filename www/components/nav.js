@@ -9,9 +9,12 @@ const useCases = [
     { href: '/visits', label: 'Customized Visits' },
 ]
 
-const rightLinks = [
+const leftLinks = [
     { href: '#threeStepsToHost', label: 'Host'},
     { href: '/product', label: 'Product' },
+]
+
+const rightLinks = [
     { href: '/contact-us', label: 'Login' },
 ]
 
@@ -26,8 +29,8 @@ export default function Nav() {
     
     return (
         <nav>
-            <ul className="flex items-center justify-between pt-6 text-base">
-                <ul className="flex items-center justify-between space-x-4">
+            <ul className="flex mx-auto items-center justify-center pt-6 text-base max-w-screen-xl">
+                <ul className="flex items-center justify-between mr-4 space-x-4">
                     <li key={`landing-upon`}>
                         <img
                             onClick={() => window.scrollTo(0,0)}
@@ -36,7 +39,7 @@ export default function Nav() {
                         />
                     </li>
                 </ul>
-                <ul className="hidden md:flex md:items-center md:justify-between md:space-x-4">
+                <ul className="hidden md:flex md:w-full md:space-x-4">
                     <li>
                         <div className="relative group text-white">
                             <button className="px-4 font-bold text-left bg-transparent focus:outline-none">
@@ -59,8 +62,11 @@ export default function Nav() {
                             </div>
                         </div>
                     </li>
-                    {rightLinks.map(({ href, label }) => (
-                        <li key={`${href}${label}`}>
+                    {leftLinks.map(({ href, label }) => (
+                        <li 
+                            key={`${href}${label}`}
+                            className="items-start"
+                            >
                             <Link href={href}>
                                 <a className="no-underline btn-transparent text-white">
                                     {label}
@@ -69,7 +75,19 @@ export default function Nav() {
                         </li>
                     ))}
                 </ul>
-                <ul className="md:hidden">
+                <ul className="hidden md:flex md:items-end md:space-x-4">
+                    {rightLinks.map(({ href, label }) => (
+                        <li key={`${href}${label}`}
+                            >
+                            <Link href={href}>
+                                <a className="no-underline btn-transparent text-white">
+                                    {label}
+                                </a>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+                <ul className="w-full flex justify-end md:hidden">
                     <li>
                         <div className="w-8 h-8" onClick={()=> setShowMenu(!showMenu)}>
                         {showMenu
