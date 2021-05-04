@@ -5,13 +5,12 @@ export default function Landing() {
     return (     
         <div className="flex flex-wrap text-left items-center pt-16 max-w-screen-md md:px-4 lg:px-8 lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
             <div className="w-full md:w-1/2 mb-4 text-center md:text-left">
-                <img src="/uponLogoGreen.svg" className="mx-auto md:mx-0"/>
                 <h1 className="pt-2 pb-8 text-3xl text-green">
-                    Delight Guests <br/>
-                    Increase Returns
+                    Mobile Optimzed <br/>
+                    Conversion Focused
                 </h1>
                 <p className="pb-10 text-lg text-green mx-8 md:mx-0 md:pr-16 lg:pr-32 xl:pr-48">
-                    Increase favorability, reviews, and return rates with Upon's Greeting App
+                    Add a digital environment to your vistor experience with Upon's Welcome App
                 </p>
                 <Link
                     href="https://host.tryupon.com/"

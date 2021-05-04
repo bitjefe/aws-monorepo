@@ -29,13 +29,13 @@ export default function Nav() {
     
     return (
         <nav>
-            <ul className="flex mx-auto items-center justify-center pt-6 text-base max-w-screen-xl">
+            <ul className="flex mx-auto items-center justify-center h-12 pt-6 text-base max-w-screen-xl">
                 <ul className="flex items-center justify-between mr-4 space-x-4">
                     <li key={`landing-upon`}>
                         <img
                             onClick={() => window.scrollTo(0,0)}
-                            src="/uLogoWhite.svg"
-                            className="cursor-pointer h-8 w-8"
+                            src="/uponLogoWhite.svg"
+                            className="cursor-pointer h-6 w-36"
                         />
                     </li>
                 </ul>
