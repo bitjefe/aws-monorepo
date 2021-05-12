@@ -6,7 +6,7 @@ export default function Landing() {
         <div className="flex flex-wrap text-left items-center pt-16 max-w-screen-md md:px-4 lg:px-8 lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
             <div className="w-full md:w-1/2 mb-4 text-center md:text-left">
                 <h1 className="pt-2 pb-8 text-3xl text-green">
-                    Mobile Optimzed <br/>
+                    Mobile Optimized <br/>
                     Conversion Focused
                 </h1>
                 <p className="pb-10 text-lg text-green mx-8 md:mx-0 md:pr-16 lg:pr-32 xl:pr-48">
