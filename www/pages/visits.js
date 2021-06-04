@@ -6,7 +6,7 @@ export default function Visits() {
         <div className="h-full">
             <div className="z-10 bg-green w-full fixed py-3 px-4 sm:px-6 md:px-8 text-lg font-semibold shadow-2xl">
                 <Link href="/">
-                    <a className="btn-transparent font-bold py-3 px-4 rounded inline-flex items-center">
+                    <a className="btn-transparent font-medium py-3 px-4 rounded inline-flex items-center">
                         <svg 
                             className="w-6 h-6"
                             fill="none"

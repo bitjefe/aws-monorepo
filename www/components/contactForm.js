@@ -22,7 +22,7 @@ export default function ContactForm() {
                 <div className="flex flex-wrap -mx-3 mb-6">
                     <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                         <label
-                            className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                            className="block uppercase tracking-wide text-gray-700 text-xs font-medium mb-2"
                             htmlFor="grid-first-name"
                             >
                             First Name
@@ -39,7 +39,7 @@ export default function ContactForm() {
                     </div>
                     <div className="w-full md:w-1/2 px-3">
                         <label
-                            className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                            className="block uppercase tracking-wide text-gray-700 text-xs font-medium mb-2"
                             htmlFor="grid-last-name"
                             >
                             Last Name
@@ -58,7 +58,7 @@ export default function ContactForm() {
                 <div className="flex flex-wrap -mx-3 mb-6">
                     <div className="w-full px-3">
                       <label
-                          className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                          className="block uppercase tracking-wide text-gray-700 text-xs font-medium mb-2"
                           htmlFor="grid-password"
                           >
                           Email
@@ -75,7 +75,7 @@ export default function ContactForm() {
                     </div>
                 </div>
                 <label
-                    className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    className="block uppercase tracking-wide text-gray-700 text-xs font-medium mb-2"
                     htmlFor="radioHost"
                     >
                     Services
@@ -92,7 +92,7 @@ export default function ContactForm() {
                     />
                     <label
                         htmlFor="radioHost"
-                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-8 md:px-16 rounded-lg"
+                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-medium py-2 px-8 md:px-16 rounded-lg"
                         >
                         HOST
                     </label>
@@ -107,7 +107,7 @@ export default function ContactForm() {
                     />
                     <label
                         htmlFor="radioOther"
-                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-bold py-2 px-8 md:px-16 rounded-lg"
+                        className="bg-transparent hover:bg-gray-400 border border-gray-500 hover:border-transparent text-gray-800 font-medium py-2 px-8 md:px-16 rounded-lg"
                         >
                         OTHER
                     </label>
@@ -115,7 +115,7 @@ export default function ContactForm() {
                 <div className="flex flex-wrap -mx-3 my-8">
                     <div className="w-full px-3">
                         <label
-                            className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                            className="block uppercase tracking-wide text-gray-700 text-xs font-medium mb-2"
                             htmlFor="grid-message"
                             >
                             Message
@@ -133,7 +133,7 @@ export default function ContactForm() {
                 </div>
                 <div className="mt-6 flex justify-end items-end">
                     <button
-                        className="shadow bg-green hover:opacity-90 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-8 rounded-lg"
+                        className="shadow bg-green hover:opacity-90 focus:shadow-outline focus:outline-none text-white font-medium py-2 px-8 rounded-lg"
                         type="submit"
                         >
                         Submit

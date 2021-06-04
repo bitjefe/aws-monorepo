@@ -21,7 +21,7 @@ export default function Menu() {
             <ul className="text-white visibile h-screen md:hidden border-t mt-3 pt-3 text-2xl">
                 <li className="ml-10 py-2">
                     <button
-                        className="font-bold text-left bg-transparent focus:outline-none hover:text-silver"
+                        className="font-medium text-left bg-transparent focus:outline-none hover:text-silver"
                         onClick={() => setShowUseCases(!showUseCases)}
                         >
                         <span>Use Cases</span>

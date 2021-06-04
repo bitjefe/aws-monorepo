@@ -23,7 +23,7 @@ export default function HowItWorks() {
             </div>
             <div className="text-green max-w-screen-md pt-12 px-4 lg:px-8 lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
                 <div className="bg-silver w-full rounded-xl">
-                    <h4 className="font-semibold text-lg md:text-2xl text-center pt-2">
+                    <h4 className="font-medium text-lg md:text-2xl text-center pt-2">
                         How does it work?
                     </h4>
                     <div className="flex flex-row items-center text-center pt-2">
@@ -40,7 +40,7 @@ export default function HowItWorks() {
                             Returning
                         </div>
                     </div>
-                    <p className="font-semibold text-xs md:text-sm text-center px-4 md:px-20 py-3">
+                    <p className="font-medium text-xs md:text-sm text-center px-4 md:px-20 py-3">
                         Upon's progressive web app is built for the full lifecycle of your visitor's experience
                         and available to be accessed without downloading via email, text, QR, NFC tags.
                     </p>

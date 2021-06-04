@@ -6,7 +6,7 @@ export default function Product() {
         <div className="h-full bg-gradient-brand-lg">
             <div className="z-10 bg-green w-full fixed py-3 px-4 sm:px-6 md:px-8 text-lg font-semibold shadow-2xl">
                 <Link href="/">
-                    <a className="btn-transparent font-bold py-3 px-4 rounded inline-flex items-center">
+                    <a className="btn-transparent font-medium py-3 px-4 rounded inline-flex items-center">
                         <svg 
                             className="w-6 h-6"
                             fill="none"
@@ -26,7 +26,7 @@ export default function Product() {
                 </Link>
             </div>
             <div className="flex flex-wrap max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
-                <h4 className="w-full pt-32 pb-20 leading-tight text-4xl md:text-5xl text-center font-bold">
+                <h4 className="w-full pt-32 pb-20 leading-tight text-4xl md:text-5xl text-center font-medium">
                     Differentiate Your Welcome Experience
                 </h4>
                 <div className="flex-1 py-2 rounded-lg space-y-8 lg:space-y-12">

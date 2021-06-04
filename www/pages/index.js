@@ -9,6 +9,7 @@ import Landing from '../components/landing'
 import DigitalGreetings from '../components/digitalGreetings'
 import VisitorExperience from '../components/visitorExperience'
 import HowItWorks from '../components/howItWorks'
+import PWA from '../components/pwa'
 import RequestDemo from '../components/requestDemo'
 import Footer from '../components/footer'
 
@@ -25,7 +26,7 @@ export default function IndexPage() {
                 />
             </Head>
             <div className="flex flex-col h-screen">
-                <header className="z-20 bg-green w-full fixed pb-4 px-4 sm:px-6 md:px-8 text-lg font-semibold">
+                <header className="z-20 bg-green w-full fixed pb-4 px-4 sm:px-6 md:px-8 text-lg font-medium">
                     <Nav />
                 </header>
                 <main className="mt-20">
@@ -35,6 +36,7 @@ export default function IndexPage() {
                             <VisitorExperience />
                         </div>
                         <HowItWorks />
+                        <PWA />
                         <DigitalGreetings />
                     </div>
                     <RequestDemo />
