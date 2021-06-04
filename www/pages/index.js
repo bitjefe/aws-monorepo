@@ -30,14 +30,12 @@ export default function IndexPage() {
                 </header>
                 <main className="mt-20">
                     <div className="space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44">
-                        <div className="bg-gradient-brand-cream space-y-20 sm:space-y-32">
+                        <div className="space-y-20 sm:space-y-32">
                             <Landing />
                             <VisitorExperience />
-                            <div className="bg-gradient-brand-invert-cream">
-                                <DigitalGreetings />
-                            </div>
                         </div>
                         <HowItWorks />
+                        <DigitalGreetings />
                     </div>
                     <RequestDemo />
                     <Footer />
