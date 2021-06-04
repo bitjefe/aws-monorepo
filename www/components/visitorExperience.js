@@ -59,7 +59,7 @@ export default function VisitorExperience() {
                     )}
                     </div>
                     <div className="flex content-center w-1/3">
-                        <img src={imageIs} className="shadow-lg h-72 lg:h-96 mx-auto my-auto"/>
+                        <img src={imageIs} className="h-72 lg:h-96 mx-auto my-auto"/>
                     </div>
                 </div>
             </div>
