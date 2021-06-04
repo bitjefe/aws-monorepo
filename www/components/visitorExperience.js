@@ -35,7 +35,7 @@ export default function VisitorExperience() {
                 <h4 className="text-green font-extralight text-3xl text-center px-4">
                     Visitor Experience Platform
                 </h4>
-                <div className="flex flex-row items-center my-20 mx-4 md:mx-20">
+                <div className="flex flex-row items-center my-20 max-w-screen-md px-4 lg:px-8 lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
                     <div className="flex flex-col items-center w-2/3">
                     {appInfo.map((page) =>
                         <div
