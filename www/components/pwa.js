@@ -21,13 +21,13 @@ export default function PWA() {
                     arrive via tickets or signups
                 </p>
                 <div className="flex flex-row items-center text-center pt-2 border-b-8 border-lightGreen">
-                    <div className="bg-white w-1/3 mx-4 rounded-xl">
+                    <div className="w-1/4">
                         venues
                     </div>
-                    <div className="bg-white w-1/3 mx-4 rounded-xl">
+                    <div className="w-2/4 mx-auto">
                         event grounds
                     </div>
-                    <div className="bg-white w-1/3 mx-4 rounded-xl">
+                    <div className="w-1/4 mx-auto">
                         museums
                     </div>
                 </div>
