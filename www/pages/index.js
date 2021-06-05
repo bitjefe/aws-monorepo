@@ -11,6 +11,7 @@ import VisitorExperience from '../components/visitorExperience'
 import HowItWorks from '../components/howItWorks'
 import PWA from '../components/pwa'
 import Museum from '../components/museum'
+import FanConnect from '../components/fanConnect'
 import RequestDemo from '../components/requestDemo'
 import Footer from '../components/footer'
 
@@ -39,6 +40,7 @@ export default function IndexPage() {
                         <HowItWorks />
                         <PWA />
                         <Museum />
+                        <FanConnect />
                         <DigitalGreetings />
                     </div>
                     <RequestDemo />
