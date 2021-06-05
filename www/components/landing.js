@@ -22,8 +22,8 @@ export default function Landing() {
                 <Image
                     src="/welcomeToUpon.png"
                     alt="App Images"
-                    width={600}
-                    height={400}
+                    width={1579}
+                    height={1159}
                     unoptimized={true}
                 />
             </div>

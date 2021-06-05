@@ -31,12 +31,12 @@ export default function IndexPage() {
                 <header className="z-20 bg-green w-full fixed pb-4 px-4 sm:px-6 md:px-8 text-lg font-medium">
                     <Nav />
                 </header>
-                <main className="mt-20">
+                <main className="mt-16">
                     <div className="space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44">
-                        <div className="space-y-20 sm:space-y-32">
+                        <div className="bg-cream space-y-20 sm:space-y-32">
                             <Landing />
-                            <VisitorExperience />
                         </div>
+                        <VisitorExperience />
                         <HowItWorks />
                         <PWA />
                         <Museum />
