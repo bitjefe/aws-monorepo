@@ -10,6 +10,7 @@ import DigitalGreetings from '../components/digitalGreetings'
 import VisitorExperience from '../components/visitorExperience'
 import HowItWorks from '../components/howItWorks'
 import PWA from '../components/pwa'
+import Museum from '../components/museum'
 import RequestDemo from '../components/requestDemo'
 import Footer from '../components/footer'
 
@@ -37,6 +38,7 @@ export default function IndexPage() {
                         </div>
                         <HowItWorks />
                         <PWA />
+                        <Museum />
                         <DigitalGreetings />
                     </div>
                     <RequestDemo />
