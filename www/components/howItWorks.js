@@ -9,7 +9,7 @@ const headerInfo = [
 export default function HowItWorks() {
     return (
         <div>
-            <div className="flex flex-wrap text-left text-green items-start max-w-screen-md px-4 lg:px-8 lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
+            <div className="flex flex-wrap text-center text-green items-start max-w-screen-md px-4 lg:px-8 lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
             {headerInfo.map((item) => 
                 <div className="w-1/3 px-4">
                     <p className="text-2xl md:text-3xl">
