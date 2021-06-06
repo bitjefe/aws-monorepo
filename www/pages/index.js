@@ -33,7 +33,7 @@ export default function IndexPage() {
                 </header>
                 <main className="mt-16">
                     <div className="space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44">
-                        <div className="bg-cream space-y-20 sm:space-y-32">
+                        <div className="bg-cream">
                             <Landing />
                         </div>
                         <VisitorExperience />

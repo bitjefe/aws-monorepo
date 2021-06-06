@@ -27,6 +27,9 @@ export default function Landing() {
                     unoptimized={true}
                 />
             </div>
+            <div className="hidden md:flex md:flex-row md:text-left md:items-start md:pl-8">
+                <img src="/characters/sportingEventFans.png" className="h-36 md:h-48 mx-auto -mb-24"/>
+            </div>
         </div>
     )
 }
