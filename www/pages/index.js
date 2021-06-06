@@ -10,7 +10,7 @@ import DigitalGreetings from '../components/digitalGreetings'
 import VisitorExperience from '../components/visitorExperience'
 import HowItWorks from '../components/howItWorks'
 import PWA from '../components/pwa'
-import Museum from '../components/museum'
+import Venue from '../components/venue'
 import FanConnect from '../components/fanConnect'
 import RequestDemo from '../components/requestDemo'
 import Footer from '../components/footer'
@@ -39,7 +39,9 @@ export default function IndexPage() {
                         <VisitorExperience />
                         <HowItWorks />
                         <PWA />
-                        <Museum />
+                    </div>
+                    <div className="space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44">
+                        <Venue />
                         <FanConnect />
                         <DigitalGreetings />
                     </div>

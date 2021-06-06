@@ -20,17 +20,6 @@ export default function PWA() {
                     Core features are built for hosts with frequent in-person visitors who
                     arrive via tickets or signups
                 </p>
-                <div className="flex flex-row items-center text-center pt-2 border-b-8 border-lightGreen">
-                    <div className="w-1/4">
-                        venues
-                    </div>
-                    <div className="w-2/4 mx-auto">
-                        event grounds
-                    </div>
-                    <div className="w-1/4 mx-auto">
-                        museums
-                    </div>
-                </div>
             </div>
         </div>
     )
