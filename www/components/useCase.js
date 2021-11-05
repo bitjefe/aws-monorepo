@@ -47,7 +47,7 @@ export default function UseCase() {
         <div className="max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center text-center px-3 pt-32">
                 <div className="w-full lg:w-1/2">
-                    <h4 className="leading-tight text-4xl lg:text-5xl font-bold">
+                    <h4 className="leading-tight text-4xl lg:text-5xl font-medium">
                         {subDesc}
                     </h4>
                 </div>
@@ -63,12 +63,12 @@ export default function UseCase() {
             </div>
             <div className="flex flex-col md:flex-row space-x-4 items-center text-center">
                 <div className="w-full py-8 px-6 md:px-4 md:w-1/2">
-                    <p className="leading-tight text-xl md:text-2xl font-bold">
+                    <p className="leading-tight text-xl md:text-2xl font-medium">
                         {solution}
                     </p>
                 </div>
                 <div className="w-full py-8 px-6 md:px-4 md:w-1/2 md:py-16">
-                    <p className="leading-tight text-xl md:text-2xl font-bold">
+                    <p className="leading-tight text-xl md:text-2xl font-medium">
                         {impact}
                     </p>
                 </div>

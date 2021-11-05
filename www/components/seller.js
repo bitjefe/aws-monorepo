@@ -9,7 +9,7 @@ export default function Seller() {
             </p>
             <div className="flex flex-col md:flex-row text-center">
               <div className="w-full md:w-1/2 h-auto">
-                  <p className="h-24 text-2xl text-green font-semibold">
+                  <p className="h-24 text-2xl text-green font-medium">
                       List your local services or <br/>
                       crafted goods in Upon
                   </p>

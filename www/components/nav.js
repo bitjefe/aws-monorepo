@@ -42,7 +42,7 @@ export default function Nav() {
                 <ul className="hidden md:flex md:w-full md:space-x-4">
                     <li>
                         <div className="relative group text-white">
-                            <button className="px-4 font-bold text-left bg-transparent focus:outline-none">
+                            <button className="px-4 font-medium text-left bg-transparent focus:outline-none">
                                 <span>Use Cases</span>
                             </button>
                             <div className="absolute z-10 hidden bg-green group-hover:flex">

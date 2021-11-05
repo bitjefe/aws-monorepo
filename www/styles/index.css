@@ -16,12 +16,16 @@ body{
   @apply px-4 py-2 text-green rounded;
 }
 
+.btn-green-spec-sm {
+  @apply bg-green hover:bg-white hover:text-green text-sm border border-green text-white font-medium py-2 px-6 lg:px-10 duration-200 transition-colors mb-6 lg:mb-0 rounded-full;
+}
+
 .btn-green-spec {
-  @apply bg-green hover:bg-white hover:text-green border border-green text-white font-bold py-4 px-6 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0 rounded-xl;
+  @apply bg-green hover:bg-white hover:text-green border border-green text-white font-medium py-4 px-6 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0 rounded-xl;
 }
 
 .btn-green-spec-lg {
-  @apply bg-green hover:bg-white hover:text-green border border-green text-white font-bold py-4 px-20 duration-200 transition-colors mb-6 lg:mb-0 rounded-xl;
+  @apply bg-green hover:bg-white hover:text-green border border-green text-white font-medium py-4 px-20 duration-200 transition-colors mb-6 lg:mb-0 rounded-xl;
 }
 
 .btn-cream {
@@ -46,6 +50,14 @@ body{
     src: local('Whyte ExtraLight'), local('Whyte-ExtraLight'),
         url('/fonts/Whyte-ExtraLight.ttf') format('truetype');
     font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Whyte';
+    src: local('Whyte Bold'), local('Whyte-Bold'),
+        url('/fonts/Whyte-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
 
