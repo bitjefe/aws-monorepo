@@ -1,2 +1,2 @@
-# upon-monorepo
-Monorepo for Upon Apps
+# aws-monorepo
+JavaScript based AWS monorepo template
